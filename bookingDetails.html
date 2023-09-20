@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Details</title>
+    <link rel="stylesheet" href="bookingDetailsStyle.css">
+</head>
+<body>
+    <section>
+        <nav id="navbar">
+            <div class="nav-left">
+                <a href="homePage.html"><img src="Asset/back-button2.png"></a>
+            </div>
+            <div class="nav-mid">
+                <span>Booking Details</span>    
+                
+            </div>
+            <div class="nav-right">
+                <a href="">CS Contact</a>
+            </div>
+        </nav>
+
+        <div class="countdown-timer">
+            <span>Countdown Timer</span>
+            <p id="timer">20 Minutes : 00 Seconds</p>
+        </div>
+
+        <div class="e-money-container">
+            <div class="e-money-atas">
+                <img src="Asset/e-money.png" alt="">
+            </div>
+            <div class="e-money-tengah">
+                <span>Order Number</span>
+                <p>TRX-0000120120-910239129</p>
+            </div>
+            <div class="e-money-bawah">
+                <span>Transaction Time</span>
+                <p>-</p>
+            </div>
+        </div>
+
+        <div class="order-summary-container">
+            <div class="order-summary-header">
+                Order Summary
+            </div>
+
+            <div class="order-summary-content">
+                <div class="os-kiri">
+                    <p>Location</p>
+                    <p>Car License</p>
+                    <p>Floor</p>
+                    <p>Zone</p>
+                    <p>Entry Fee</p>
+                    <p>Hourly Fee</p>
+                    <p>Check-In</p>
+                </div>
+                <div class="os-kanan">
+                    <p>Central Park Mall</p>
+                    <p>B 1234 ABC</p>
+                    <p>1</p>
+                    <p>A-12</p>
+                    <p>Rp 5.000</p>
+                    <p id="temptext">Rp 4.000/Hours</p>
+                    <p>-</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="caution-timer-container">
+            <img src="Asset/alert-logo.png" alt="">
+            <p>when your countdown timer time has run out, then your duration time will start to count. After the first hour will be charged hourly!</p>
+        </div>
+
+        <div class="tombol-bawah">
+            <div class="cancel">
+                <a href="">Cancel</a>
+            </div>
+            <div class="check-in">
+                <a href="homePage.html">Check-In</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="timer.js"></script>
+</body>
+</html>

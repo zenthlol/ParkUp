@@ -1,0 +1,36 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
+*:root{
+    --yellow: #FFD04E;
+    --dark: #412B15;
+    --brown: #5A2F04
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: ros;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    height: 932px;
+    width: 430px;
+    border: 5px solid black;
+    margin: 0px 15px 40px 15px;
+    padding: 10px 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section img{
+    width: 50%;
+    margin: auto;
+}

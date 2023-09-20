@@ -1,0 +1,105 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*:root{
+    --light-yellow: #FFD04E;
+    --semi-dark: #412B15;
+    --dark-brown: #5A2F04;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: ros;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    height: 932px;
+    width: 430px;
+    border: 5px solid black;
+    margin: 0px 15px 40px 15px;
+    padding: 10px 15px 0px;
+}
+
+/* NAVIGATION BAR */
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    
+}
+
+.nav-left{
+    margin-right: 120px;
+}
+
+
+/* CONTENT */
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    width: 185px;
+    height: 240px;
+    background-color: #F8F8F8 ;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-img img{
+    width: 185px;
+    height: 153px;
+}
+
+.card-detail{
+    padding-left: 10px;
+    font-family: Poppins;
+}
+
+.card-detail h2{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.card-detail h3{
+    font-size: 10px;
+    font-weight: 400;
+    color: #A1A8BD;
+
+}
+
+.distance{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.card-detail h4{
+    font-size: 10px;
+    font-weight: 500;
+    color: #D8AF0F;
+
+}

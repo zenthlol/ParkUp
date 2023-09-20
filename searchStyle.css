@@ -1,0 +1,104 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+*:root{
+    --light-yellow: #FFD04E;
+    --semi-dark: #412B15;
+    --dark-brown: #5A2F04;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: ros;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    height: 932px;
+    width: 430px;
+    border: 5px solid black;
+    margin: 0px 15px 40px 15px;
+    padding: 10px 15px 0px;
+}
+
+
+/* NAVIGATION BAR */
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    align-items: center;
+    
+}
+
+.nav-left{
+    align-items: left;
+    margin-right: 40px;
+}
+
+.search-bar{
+    font-family: Poppins;
+    font-size: 14px;
+    color: #C2C2C2;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 353px;
+    border: 1px solid var(--light-yellow);
+}
+
+.search-bar p{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.search-bar span{
+    font-size: 14px;
+}
+
+/* CONTENT */
+
+.content{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.box{
+    display: flex;
+    margin: 5px 0px 3px;
+    align-items: center;
+}
+
+.box img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.box p{
+    font-size: 10px;
+    font-weight: 700;
+}

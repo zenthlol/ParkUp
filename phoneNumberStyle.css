@@ -1,0 +1,119 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
+*:root{
+    --light-yellow: #FFD04E;
+    --semi-dark: #412B15;
+    --dark-brown: #5A2F04;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: ros;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    height: 932px;
+    width: 430px;
+    border: 5px solid black;
+    margin: 0px 15px 40px 15px;
+    padding: 10px 15px 0px;
+}
+
+
+/* NAVIGATION BAR */
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    /* padding: 28px 80px; */
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+
+.nav-left{
+    align-items: left;
+    margin-left: 15px;
+}
+
+.nav-right{
+    align-items: center;
+    margin-left: 140px;
+}
+
+.nav-right p{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--semi-dark);
+}
+
+.nav-right span{
+    color: var(--light-yellow);
+}
+
+/* CONTENT */
+
+.content{
+    display: flex;
+    flex-direction: column;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-bottom: 22px;
+    
+    justify-content: center;
+}
+
+.content h2{
+    font-size: 25px;
+    color: black; 
+}
+
+.content h3{
+    font-size: 18px;
+    color: #878787;
+    margin-top: 10px;
+}
+
+.content-input input {
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 3px;
+    border: 3px solid #D8AF0F;
+    background-color: white;
+    width: 410px;
+    height: 50px;
+    font-size: 18px;
+    
+}
+
+.input-number ::placeholder{
+    margin-left: 50px;
+}
+
+
+.button{
+    display: flex;
+    bottom: 0;
+    margin-top: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button a{
+    background-color: var(--light-yellow);
+    font-size: 24px;
+    color: var(--dark-brown);
+    padding: 26px 87px 22px;
+    border-radius: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
